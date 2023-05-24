@@ -59,15 +59,16 @@ The *append()* command is also used to define the targeted tokens and not mix th
 
 <div align="center">
 <video src="https://user-images.githubusercontent.com/51851879/200179212-cfd08772-8069-420a-a3cc-52b33b89f074.mp4" width=400/>
-  
+</div>
+
 ### **Statistical Part**
   The arena settings are changed to place the tokens randomly on the environment.
-  '''
+  ```
   robot-sim/sr/robot/arenas/two_colours_assignment_arena.py
-  '''
+  ```
   
   I defined the random token places using these snippet
-  '''
+  ```
    def place_token_circle(radius, number_offset=0, angle_offset=0.25 * pi,
                                rotate_silvers=0.0):
             for i in range(TOKENS_PER_CIRCLE):
@@ -85,5 +86,12 @@ The *append()* command is also used to define the targeted tokens and not mix th
         place_token_circle(INNER_CIRCLE_RADIUS)
         place_token_circle(OUTER_CIRCLE_RADIUS, number_offset=TOKENS_PER_CIRCLE,
                            angle_offset=1.5 * pi, rotate_silvers=pi / 4)
-  '''
+  ```
+  
+  This is how the random token environment seems like
+  
+  ![Random token environment](robot-sim.png)
+
+  
+  
   Then I compared my code with my colleagues code for different number of tokens in the environment (6, 8, 10) using t-test and lilliefors test. The detailed explanation can be find in the report.
