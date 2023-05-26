@@ -1,0 +1,2 @@
+assignment_2_2022
+-DCATKIN_DEVEL_PREFIX=/home/ecem/Documents/Research_track_assignment/my_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ecem/Documents/Research_track_assignment/my_ws/install -G Unix Makefiles
