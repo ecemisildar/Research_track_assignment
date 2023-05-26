@@ -5,7 +5,7 @@ Html page can be find in:
 ```~/my_ws/src/assignment_2_2022/build/html/index.html```
 
 Statistical part report is in:
-```~/robot-sim
+```~/robot-sim```
 
 ### Troubleshooting
 
